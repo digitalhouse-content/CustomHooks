@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { useFetch } from "../hooks/useFetch"
 
-export const FetchApp = () => {
+export const FetchComponent = () => {
 
     const url = 'https://jsonplaceholder.typicode.com/users'
 

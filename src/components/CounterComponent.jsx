@@ -1,6 +1,6 @@
 import { useCounter } from "../hooks/useCounter"
 
-export const CounterApp = () => {
+export const CounterComponent = () => {
 
     const { counter, increment, reset, decrement } = useCounter(0)
 
